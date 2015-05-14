@@ -25,6 +25,8 @@ def main():
         itemlist = sys.argv[1:]
     except:
         print sys.argv[0] + ' [item to yum] ...'
+    if len(itemlist) == 0:
+        print sys.argv[0] + ' [item to yum] ...'
     for item in itemlist:
         run(item)
     print 'All yum works finished!'
