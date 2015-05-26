@@ -1,5 +1,5 @@
 curl https://raw.githubusercontent.com/readline/OSdeployments/master/circleYum/circleYum.py > circleYum.py &&
-/usr/bin/python circleYum.py gcc wget git tar which zlib zlib-devel openssl-devel mysql mysql-devel unzip libffi-devel &&
+/usr/bin/python circleYum.py gcc wget git tar which zlib zlib-devel openssl-devel mysql mysql-devel unzip libffi-devel mysql-server &&
 rm -f /etc/localtime &&
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime &&
 cd /opt &&
